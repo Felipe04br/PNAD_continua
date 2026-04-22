@@ -122,3 +122,9 @@ elif len(lista_de_dataframes) == 1:
     print(df_final.head())
 else:
     print("\nNão foi possível gerar o DataFrame final (nenhum arquivo processado com sucesso).")
+
+csv=input("Deseja exportar o dataframe como um arquivo .csv? (0 para não e 1 para sim)")
+if csv=="1":
+    df_final.to_csv("Banco_de_dados.csv",index=False,encoding='utf-8')
+else:
+    print("Fim do código!")
