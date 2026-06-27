@@ -30,7 +30,7 @@ df2 = df_temp1[['V2009', 'V4039', 'V4039C', 'Rendimento Total']].agg(['mean', 'm
 df2 = df2.T  
 df2.columns = ['Média', 'Mediana', 'Desvio-padrão', 'Q1', 'Q3']
 df2.index.name = 'Variável'
-
+# esse é teste
 print("\n--- Tabela de Estatísticas Gerais (df2) ---")
 print(df2)
 
