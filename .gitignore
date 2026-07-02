@@ -1,0 +1,10 @@
+# created by virtualenv automatically
+# Configurações da IDE (JetBrains/PyCharm)
+.idea/
+
+# Configurações da IDE (Visual Studio Code)
+.vscode/
+
+# Ambiente virtual do Python
+.venv/
+
